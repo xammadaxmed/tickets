@@ -1,0 +1,283 @@
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #8551ff89;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #8651FF;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: rgb(227, 227, 227) !important;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.row {
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+.float-right {
+    float: right !important;
+}
+
+.float-left {
+    float: left !important;
+}
+
+.btn {
+    border-radius: 0;
+}
+
+.spacer {
+    height: 20px;
+}
+
+
+.mt-2 {
+    margin-top: 2px;
+}
+
+.mt-4 {
+    margin-top: 4px;
+}
+
+.mt-6 {
+    margin-top: 6px;
+}
+
+.mt-8 {
+    margin-top: 8px;
+}
+
+
+.ml-2 {
+    margin-left: 2px;
+}
+
+.ml-4 {
+    margin-left: 4px;
+}
+
+.ml-6 {
+    margin-left: 6px;
+}
+
+.ml-8 {
+    margin-left: 8px;
+}
+
+.mb-2 {
+    margin-bottom: 2px;
+}
+
+.mb-4 {
+    margin-bottom: 4px;
+}
+
+.mb-6 {
+    margin-bottom: 6px;
+}
+
+.mb-8 {
+    margin-bottom: 8px;
+}
+
+
+
+.form-label {
+    margin-bottom: 2px;
+}
+
+.taxonomy-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.taxonomy-list li {
+    border-bottom: 1px solid rgb(188, 188, 188);
+    cursor: pointer;
+    padding: 4px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.card {
+    border-radius: 0;
+}
+
+.card-header {
+    border-radius: 0 !important;
+    background-color: #8651FF;
+    color: white;
+    font-weight: bold;
+}
+
+.ticket-issue-details {
+    height: 500px;
+}
+
+.logo {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.header {
+    background-color: white;
+    z-index: 100000;
+}
+
+.logo img {
+    width: 150px;
+}
+
+.sidebar {
+    padding: 0px;
+    width: 13% !important;
+    overflow: visible;
+    top: 0;
+}
+
+.sidebar-container {}
+
+.sidebar-menu-list {
+    list-style-type: none;
+    padding: 5px;
+    margin: 0;
+    background-color: white;
+    border-top: 1px rgba(60, 64, 67, 0.15) solid;
+    box-shadow: rgba(142, 145, 147, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    height: 100vh;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+
+}
+
+.sidebar-menu-list li a {
+    color: rgb(103, 101, 101);
+    display: block;
+    padding: 10px;
+    margin: 4px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+}
+
+.sidebar-menu-list li a:hover {
+    box-shadow: rgba(23, 23, 23, 0.526) 0px 1px 4px;
+}
+
+.active {
+    color: white !important;
+    background-color: #8651FF !important;
+}
+
+.sidebar-menu-icon {
+    margin-right: 6px;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+
+.menu-seprator {
+    color: rgba(165, 165, 165, 0.819);
+    font-size: smaller;
+}
+
+a {
+    cursor: pointer;
+}
+
+#popUpTaxonomy {
+    margin: 5vw;
+    width: 100% !important;
+}
+
+#popUpTaxonomy .modal-content {
+    width: 90vw !important;
+    margin-top: 20vh;
+    border-radius: 0px;
+}
+
+.taxonomy-tab-title {
+    padding: 10px;
+    margin-left: 5px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
+    color: rgb(103, 101, 101);
+}
+
+.taxonomy-tab-title:hover {
+    color: rgb(103, 101, 101);
+    border-bottom: #8651FF 2px solid;
+}
+
+.active-tab {
+    box-shadow: rgba(17, 17, 26, 0.321) 0px 0px 16px;
+    background-color: #8651FF;
+    border-bottom: #8651FF 2px solid;
+    color: white !important;
+}
+
+.taxonomy-container {
+    height: 300px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset;
+    padding: 5px;
+    list-style-type: none;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+
+.taxonomy-container>li {
+    padding: 7px;
+    box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+    cursor: pointer;
+    font-size: 14px;
+    color: rgb(103, 101, 101);
+    box-sizing: border-box;
+}
+
+.taxonomy-container>li>a {
+    color: rgb(103, 101, 101);
+}
+
+.taxonomy-container>li:hover {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+}
+
+.active-taxonomy {
+    background-color: #8651FF;
+    color: white !important;
+}
+
+.active-taxonomy>a {
+    color: white !important;
+}
+
+
+
+.taxonomy-expert-container {
+    list-style-type: none;
+    font-size: 12px;
+}
